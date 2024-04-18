@@ -1,0 +1,489 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica,Arial,sans-serif;
+}
+body{
+    background: whitesmoke;
+}
+.maincontrol{
+    width: 90%;
+    margin: auto;
+    /* border: 1px solid blue; */
+    overflow: hidden;
+}
+.handcon{
+    width: 32px;
+    height: 23px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid black; */
+    cursor: pointer;
+    display: none;
+}
+.handone{
+    width: 45px;
+    height: 4px;
+    background: whitesmoke;
+}
+.handone1{
+    margin: 5px 0;
+}
+/* for header */
+.one1{
+    width: 100%;
+    /* height: 100px; */
+    text-align: center; 
+    margin-top: 20px;
+    /* border: 1px solid black;    */
+    /* background: whitesmoke; */
+}
+.one1 img{
+    min-width:60px;
+    height: 60px;
+    animation: seal 1.5s linear infinite; 
+}
+@keyframes seal{
+    0%{
+        transform: scale(.9);
+    }
+    50%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(.9);
+    }
+}
+.one1 p{
+    font-family: 'Times New Roman';
+    color: rgb(100, 105, 110);
+    font-size: 1.11rem;
+    padding: 10px;
+    font-weight: 800;
+    /* letter-spacing: .1px; */
+}
+.one2{
+    background: rgb(185, 54, 6);
+    display: flex;
+    align-items: center;
+}
+.one2 ol{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 10px 20px;
+    list-style-type: none;
+    gap: 30px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.one2 ol li a{
+    text-decoration: none;
+    color: white;
+}
+.faone{
+    margin-left: 10px;
+}
+/* for header ends */
+/* for first landing page */
+.controltwo{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    margin: 40px 0;
+
+    /* border: 1px solid black; */
+}
+.two1{
+    width: 70%;
+    overflow: hidden;
+    /* border: 1px solid black; */
+
+}
+.two1 img{
+    width: 100%;
+    height: 510px;
+}
+.two2{
+    width: 30%;
+    padding: 20px 30px;
+    background: rgb(231, 230, 230);
+    overflow: scroll;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.ptwo1{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.ptwo2{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #4D4D4D;
+    line-height: 24px;
+}
+.linetwo{
+    width: 100px;
+    height: 2.5px;
+    background:rgb(185, 54, 6);
+    margin: 15px 0;
+}
+/* for first landing page ends*/
+.controlthree{
+    width: 100%;
+    /* height: 500px; */
+    display: flex;
+    margin-bottom: 40px;
+}
+.three1{
+    width: 25%;
+}
+.three11{
+    width: 80%;
+    height: 300px;
+    overflow: hidden;
+}
+.three11 img{
+    width: 100%;
+    height: 305px;
+}
+.three111{
+    width: 80%;
+    background: rgb(231, 230, 230);
+    text-align: center;
+}
+.pthree1{
+    font-size: .8rem;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 4px;
+
+}
+.pthree2{
+    /* font-size: .8rem;
+    font-weight: 700;
+    padding-top: 10px; */
+    padding-bottom: 6px;
+
+}
+.pthree3{
+    font-size: 1.33rem;
+    font-weight: 400;
+    letter-spacing: -1px;
+    color: rgb(63, 63, 63);
+    
+    /* padding-top: 10px;
+    padding-bottom: 4px; */
+
+}
+.pthree4{
+    font-size: .9rem;
+    font-weight: 400;
+    letter-spacing: -1px;
+    color: #4D4D4D;
+    /* padding-top: 10px; */
+    padding-bottom: 3px;
+
+}
+.pthree44{
+    /* font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: -1px;
+    color: rgb(100, 105, 110); */
+    padding-top: 15px;
+}
+.pthree5{
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: -1px;
+    color: rgb(38, 39, 39);
+    /* padding-top: 10px; */
+    /* padding-bottom: 3px; */
+
+}
+.pthree6{
+    font-size: .9rem;
+    font-weight: 400;
+    letter-spacing: -1px;
+    color: #4D4D4D;
+    /* padding-top: 10px; */
+    padding-bottom: 20px;
+    line-height: 20px;
+}
+.three2{
+    width: 50%;
+    height: ;
+    margin: 0 10px;
+    padding: 0 25px;
+    border-left: 1px solid rgb(185, 185, 185);
+    border-right: 1px solid rgb(185, 185, 185);
+}
+.three3{
+    width: 25%;
+    padding: 0 10px;
+    height: ;
+}
+
+
+.controlfour{
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    margin-bottom: 70px;
+}
+.four1{
+    width: 40%;
+    height: 380px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.four1 img{
+    width: 100%;
+    height: 410px;
+}
+.four2{
+    width: 60%;
+    overflow: hidden;
+}
+.four22{
+    width: 100%;
+    height: 130px;
+    background: rgb(231, 230, 230);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+.four22 p{
+    font-size: 1.33rem;
+    font-weight: 400;
+    letter-spacing: -1px;
+    color: rgb(185, 54, 6);
+    padding-left: 15px;
+    cursor: pointer;
+}
+.fourimg{
+    color: #4D4D4D;
+    /* border: 1px solid black; */
+}
+.four222{
+    margin: 20px 0;
+}
+
+.controlfive{
+    width: 100%;
+    display: flex;
+    padding: 100px 60px;
+    height: 500px;
+    background: rgb(1, 1, 49);
+    /* border: 1px solid black; */
+    position: relative;
+    justify-content: center;
+    /* gap: 20px; */
+}
+.fiveimg{
+    padding-right: 15px;
+}
+.five1{
+    width: 40%;
+    /* border: 1px solid black; */
+    /* padding-left: 30px; */
+}
+.five1 ol{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+}
+.five1 ol li a{
+    color: #ffffff;
+}
+.pfive1{
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-bottom: 15px;
+    letter-spacing: -1px;
+    color: #ffffff;
+}
+.pfive2{
+    font-size: 1.2rem;
+    padding-bottom: 6px;
+    letter-spacing: -1px;
+    color: #ffffff;
+}
+.five2{
+    width: 25%;
+    /* border: 1px solid black; */
+}
+.five2 ol{
+    list-style-type: none;
+    font-size: 1.2rem;
+    padding-bottom: 6px;
+    letter-spacing: -1px;
+    /* color: #ffffff; */
+}
+.five2 ol li{
+    padding-bottom: 15px;
+
+}
+.five2 ol li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.five3{
+    width: 25%;
+    /* border: 1px solid black; */
+}
+.five3 ol{
+    list-style-type: none;
+    font-size: 1.2rem;
+    padding-bottom: 6px;
+    letter-spacing: -1px;
+    /* color: #ffffff; */
+}
+.five3 ol li{
+    padding-bottom: 15px;
+
+}
+.five3 ol li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.five4{
+    position: absolute;
+    top: -30px;
+}
+.fiveimg1{
+    min-width:60px;
+    height: 60px;
+}
+
+
+@media all and (max-width:1235px){
+    .faone{
+        margin-left: 2px;
+    }
+}
+@media all and (max-width:1180px){
+    .one2{
+        padding: 15px;
+    }
+    .one2 ol{
+        display: none;
+    }
+    .handcon{
+        display: flex;
+    }
+}
+@media all and (max-width:1100px){
+    .controltwo{
+        height: 470px;
+        overflow: hidden;
+    }
+    .two1{
+        width: 60%;
+        overflow: hidden;
+        /* border: 1px solid black; */
+    
+    }
+    .two1 img{
+        width: 100%;
+        height: 480px;
+    }
+    .two2{
+        width: 40%;
+        /* padding: 20px 30px;
+        background: rgb(231, 230, 230);
+        overflow: scroll; */
+    }
+}
+@media all and (max-width:700px){
+    .controltwo{
+        flex-direction: column;
+        height: auto;
+    }
+    .two1{
+        width: 100%;
+    }
+    .two2{
+        width: 100%;
+    }
+    .controlthree, .controlfour, .controlfive{
+        flex-direction: column;
+        /* justify-content: center; */
+    }
+    .three1{
+        width: 100%;
+        /* border: 1px solid black; */
+    }
+    .three11, .three111{
+        margin: auto;
+    }
+    .three2, .three3{
+        width: 100%;
+        margin-top: 40px;
+        border: none;
+        padding: 0;
+    }
+    .four1{
+        width: 80%;
+        margin: auto;
+    }
+    .four2{
+        width: 100%;
+    }
+    .controlfive{
+        height: auto;
+    }
+    .five1, .five2, .five3{
+        width: 100%;
+        text-align: center;
+    }
+    .five4{
+        left: 45%;
+        /* right: 50% */
+    }
+    .five1 ol{
+        /* margin-top: 40px; */
+        /* border: 1px solid white; */
+        /* text-align: center; */
+        width: fit-content;
+        margin:auto;
+        padding: 15px 0;
+    }
+}
+
+@media all and (max-width:500px){
+    .two1 img{
+        /* width: 100%; */
+        height: 400px;
+    }
+}
+@media all and (max-width:400px){
+    .two1 img{
+        /* width: 100%; */
+        height: 300px;
+    }
+    .four1{
+        /* width: 40%; */
+        height: 300px;
+        /* overflow: hidden;
+        border-radius: 10px; */
+    }
+    .four1 img{
+        /* width: 100%; */
+        height: 350px;
+    }
+}
+@media all and (max-width:300px){
+    .two1 img{
+        /* width: 100%; */
+        height: 200px;
+    }
+}
