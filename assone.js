@@ -3,13 +3,13 @@ var nav_hand=document.querySelector('.handcon');
 var nav_hand2=document.querySelector('.handtwo');
 var nav_hand1=document.querySelector('.handone');
 var nav_hand3=document.querySelector('.handthree');
-var nav_barthree=document.querySelector('.one3');
+// var nav_barthree=document.querySelector('.one3');
 // var nav_baronelist=document.querySelector('.navbaronelist');
 nav_hand.addEventListener("click", ()=>{
     nav_hand2.classList.toggle("two");
     nav_hand1.classList.toggle("one");
     nav_hand3.classList.toggle("thr");
-    nav_barthree.classList.toggle("oneth");
+    // nav_barthree.classList.toggle("oneth");
     // nav_baronelist.classList.toggle("navbaronelist1");
 })
 

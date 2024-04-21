@@ -104,22 +104,22 @@ body{
 }
 .one3{
     position: fixed;
-    width: 100%;
+    /* width: 100%;
     height: 100vh;
     top: 0;
     left: 0;
-    bottom: 0;
+    bottom: 0; */
     background: rgba(0, 0, 0, 0.801);
     color: #ffffff;
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
     font-size: 1.3rem;
-    animation: hand .3s;
+    /* animation: hand .3s; */
     display: none;
 }
 .one3.oneth{
-    display: flex;
+    /* display: flex; */
 }
 @keyframes hand{
     0%{
