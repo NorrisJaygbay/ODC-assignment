@@ -22,15 +22,46 @@ body{
     align-items: center;
     /* border: 1px solid black; */
     cursor: pointer;
+    position: absolute;
+    z-index: 1000;
+    top: 30%;
+    /* bottom: 50%; */
     display: none;
 }
 .handone{
     width: 45px;
     height: 4px;
     background: whitesmoke;
+    /* margin: 5px 0; */
+    transition: 0.4s;
+   
 }
-.handone1{
+.handone.one{
+    -webkit-transform: rotate(-40deg)translate(-5px, 3px);
+    transform: rotate(-40deg)translate(-5px, 7px);
+}
+.handtwo{
+    width: 45px;
+    height: 4px;
+    background: whitesmoke;
     margin: 5px 0;
+    transition: 0.5s;
+}
+.handtwo.two{
+    /* opacity: 0; */
+    transform: translateX(-150px);
+}
+
+.handthree{
+    width: 45px;
+    height: 4px;
+    background: whitesmoke;
+    /* margin: 5px 0; */
+    transition: 0.4s;
+}
+.handthree.thr{
+    -webkit-transform: rotate(40deg)translate(-8px, -6px);
+    transform: rotate(40deg)translate(-8px, -6px);
 }
 /* for header */
 .one1{
@@ -68,9 +99,36 @@ body{
 .one2{
     background: rgb(185, 54, 6);
     display: flex;
+    position: relative;
     align-items: center;
 }
-.one2 ol{
+.one3{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.801);
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    animation: hand .3s;
+    display: none;
+}
+.one3.oneth{
+    display: flex;
+}
+@keyframes hand{
+    0%{
+        transform: scale(0)
+    }
+    100%{
+        transform: scale(1)
+    }
+}
+.one4 ol{
     display: flex;
     align-items: center;
     height: 50px;
@@ -81,7 +139,7 @@ body{
     font-weight: 500;
 }
 
-.one2 ol li a{
+.one4 ol li a{
     text-decoration: none;
     color: white;
 }
@@ -284,6 +342,7 @@ body{
     background: rgb(1, 1, 49);
     /* border: 1px solid black; */
     position: relative;
+    z-index: -1;
     justify-content: center;
     /* gap: 20px; */
 }
@@ -372,9 +431,9 @@ body{
 }
 @media all and (max-width:1180px){
     .one2{
-        padding: 15px;
+        padding: 23px;
     }
-    .one2 ol{
+    .one4 ol{
         display: none;
     }
     .handcon{
@@ -417,6 +476,9 @@ body{
     .controlthree, .controlfour, .controlfive{
         flex-direction: column;
         /* justify-content: center; */
+    }
+    .fiveimg{
+        display: none;
     }
     .three1{
         width: 100%;
